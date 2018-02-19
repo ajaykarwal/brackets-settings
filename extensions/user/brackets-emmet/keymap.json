@@ -1,0 +1,32 @@
+{
+    "expand_abbreviation_with_tab": "Tab",
+    
+    "expand_abbreviation": "Ctrl-Alt-Enter",
+    "balance_outward": "Ctrl-Alt-B",
+    "balance_inward": "Shift-Ctrl-Alt-B",
+    "matching_pair": "Shift-Ctrl-T",
+    "wrap_with_abbreviation": "Shift-Ctrl-A",
+    "next_edit_point": "Ctrl-Alt-Right",
+    "prev_edit_point": "Ctrl-Alt-Left",
+    "select_line": "Ctrl-Shift-L",
+    "merge_lines": "Ctrl-Shift-M",
+    "toggle_comment": "Ctrl-\\",
+    "split_join_tag": "Ctrl-Shift-J",
+    "remove_tag": "Ctrl-Shift-K",
+    "evaluate_math_expression": "Shift-Ctrl-Y",
+    "update_tag": "Shift-Ctrl-I",
+
+    "increment_number_by_1": "Ctrl-Shift-Up",
+    "decrement_number_by_1": "Ctrl-Shift-Down",
+    "increment_number_by_01": "Ctrl-Shift-Alt-Up",
+    "decrement_number_by_01": "Ctrl-Shift-Alt-Down",
+    "increment_number_by_10": "Ctrl-Alt-Up",
+    "decrement_number_by_10": "Ctrl-Alt-Down",
+
+    "select_next_item": "Shift-Ctrl-.",
+    "select_previous_item": "Shift-Ctrl-,",
+    "reflect_css_value": "Shift-Ctrl-Alt-R",
+    
+    "insert_formatted_line_break": "Enter",
+    "interactive_expand_abbreviation": "Ctrl-Shift-Alt-Enter"
+}

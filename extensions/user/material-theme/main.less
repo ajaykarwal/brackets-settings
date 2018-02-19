@@ -1,0 +1,118 @@
+@background: #263238;
+@current-line: hsla(220, 100%,  80%, .04);
+@foreground: #DDEEF6;
+@comment: #49656f;
+@orange: #80cbc4;
+@blue: #ec5f67;
+@purple: #bb80b3;
+@green: #c3e88d;
+@red: @orange;
+@aqua: red;
+@yellow: @orange;
+
+
+@selection-color-focused: rgba(0, 121, 160, 0.31);
+@selection-color-unfocused: #424242;
+
+@activeline-bgcolor: hsla(220, 100%,  80%, .08);
+@activeline-number-bgcolor: hsla(220, 100%,  80%, .08);
+@matching-bracket: #47545a;
+
+.CodeMirror .cm-keyword { color: @purple; }
+.CodeMirror .cm-atom { color: @orange; }
+.CodeMirror .cm-number { color: @green; }
+.CodeMirror .cm-def { color: @foreground; }
+.CodeMirror .cm-variable { color: @orange; }
+.CodeMirror .cm-variable-2 { color: @blue; }
+.CodeMirror .cm-variable-3 { color: @yellow; }
+.CodeMirror .cm-property { color: @yellow; }
+.CodeMirror .cm-operator { color: @foreground; }
+.CodeMirror .cm-comment { color: @comment; }
+.CodeMirror .cm-string { color: @green; }
+.CodeMirror .cm-string-2 { color: @aqua; }
+.CodeMirror .cm-meta { color: @red; }
+.CodeMirror .cm-error { color: @red; }
+.CodeMirror .cm-qualifier { color: @blue; }
+.CodeMirror .cm-builtin { color: @yellow; }
+.CodeMirror .cm-bracket { color: @foreground; }
+.CodeMirror .cm-tag { color: @blue; }
+.CodeMirror .cm-attribute { color: @orange; }
+.CodeMirror .cm-header { color: @purple; }
+.CodeMirror .cm-quote { color: @blue; }
+.CodeMirror .cm-hr { color: @orange; }
+.CodeMirror .cm-link { color: @yellow; }
+.CodeMirror .cm-rangeinfo { color: @aqua; }
+.CodeMirror .cm-minus { color: @red; }
+.CodeMirror .cm-plus { color: @green; }
+
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: @selection-color-unfocused;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: @selection-color-focused;
+}
+
+.CodeMirror .CodeMirror-gutters {
+    background-color: @background;
+    border-right: 0px solid #263238;
+}
+
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: @foreground !important;
+}
+
+.CodeMirror-gutter-elt {
+    color: @comment !important;
+}
+
+.CodeMirror .CodeMirror-matchingbracket {
+    color: @foreground !important;
+    background-color: @matching-bracket;
+    text-decoration: underline;
+    text-decoration-color: #f1f1f1 !important;
+}
+
+.CodeMirror .CodeMirror-linenumber {
+    color: @activeline-number-bgcolor;
+}
+
+.CodeMirror-activeline-background,
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: @activeline-bgcolor !important;
+}
+
+.CodeMirror-matchingtag {
+    background-color: @matching-bracket;
+}
+
+.CodeMirror .CodeMirror-cursor {
+    border-left: 1px solid @foreground !important;
+}
+
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid @foreground;
+    width: 1.2ex;
+}
+
+
+
+#image-holder,
+#not-editor {
+    background-color: @background;
+}
+
+#image-holder {
+    color: @foreground;
+}
+
+
+
+

@@ -1,0 +1,12 @@
+{
+    "name": "brackets-improvements",
+    "title": "Brackets Improvements",
+    "description": "Simple extension that extends brackets and adds some useful functionalities.",
+    "homepage": "https://github.com/aymanizz/Brackets-Improvements",
+    "version": "1.0.0",
+    "author": "Ayman Izzeldin",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.28.0"
+    }
+}

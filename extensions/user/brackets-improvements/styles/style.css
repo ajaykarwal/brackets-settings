@@ -1,0 +1,4 @@
+/** Hide selected item triangle (for me it's ugly) **/
+.sidebar-selection-triangle {
+    display: none !important;
+}
